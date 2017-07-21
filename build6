@@ -1,0 +1,623 @@
+15:59:05.727 Started by an SCM change
+15:59:05.785 Building remotely on dvlna114 in workspace /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch
+15:59:05.841 Cleaning local Directory ws
+15:59:06.247 Checking out http://prdsvnrepo:8080/svn/shared/projects/selenium-base-framework/trunk at revision '2017-07-20T15:59:05.723 -0400'
+15:59:06.936 A         build
+15:59:06.936 AU        build/jenkins-job.properties
+15:59:06.936 A         src
+15:59:06.936 A         src/test
+15:59:06.936 A         src/test/resources
+15:59:06.936 AU        src/test/resources/defaults.properties
+15:59:06.936 AU        src/test/resources/e_region.properties
+15:59:06.936 AU        src/test/resources/f_region.properties
+15:59:06.936 A         src/test/resources/sample.csv
+15:59:06.936 A         src/test/java
+15:59:06.936 A         src/test/java/com
+15:59:06.936 A         src/test/java/com/vanguard
+15:59:06.936 A         src/test/java/com/vanguard/selenium
+15:59:06.936 A         src/test/java/com/vanguard/selenium/inner
+15:59:06.936 A         src/test/java/com/vanguard/selenium/inner/environments
+15:59:06.936 AU        src/test/java/com/vanguard/selenium/inner/environments/OperaConfigurationTest.java
+15:59:06.936 AU        src/test/java/com/vanguard/selenium/inner/environments/JenkinsBuildPropertiesServiceTest.java
+15:59:06.936 AU        src/test/java/com/vanguard/selenium/inner/environments/InternetExplorerConfigurationTest.java
+15:59:06.936 AU        src/test/java/com/vanguard/selenium/inner/environments/BrowserTypeTest.java
+15:59:06.936 AU        src/test/java/com/vanguard/selenium/inner/environments/ChromeConfigurationTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/IPadConfigurationTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/AndroidConfigurationTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/EnvironmentConfigHandlerTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/EnvironmentConfigHandlerForAnnotationTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/FirefoxConfigurationTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/IPhoneConfigurationTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/BuildPropertiesTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/EdgeConfigurationTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/EnvironmentConfigHandlerForSauceLabsCapabilitiesTest.java
+15:59:07.120 AU        src/test/java/com/vanguard/selenium/inner/environments/SafariConfigurationTest.java
+15:59:07.120 A         src/test/java/com/vanguard/selenium/inner/core
+15:59:07.186 A         src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders
+15:59:07.186 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/VgiMockBuilder.java
+15:59:07.186 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/WebElementMockBuilder.java
+15:59:07.186 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/TimeoutsMockBuilder.java
+15:59:07.186 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/WebDriverMockBuilder.java
+15:59:07.186 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/MockBuilderExpectationSetter.java
+15:59:07.186 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/TargetLocatorMockBuilder.java
+15:59:07.186 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/OptionsMockBuilder.java
+15:59:07.186 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/BasicMockBuilderExpectationSetter.java
+15:59:07.186 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/NestedMockBuilderExpectationSetter.java
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/seleniummockbuilders/WebDriverWaitMockBuilder.java
+15:59:07.325 A         src/test/java/com/vanguard/selenium/inner/core/rule
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/rule/RetryRuleTest.java
+15:59:07.325 A         src/test/java/com/vanguard/selenium/inner/core/utils
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/utils/FirefoxDriverWithFastHomepageTest.java
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/utils/ExpectedConditionBuilderTest.java
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/utils/ExampleConfigFile.java
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/utils/FileBackupTest.java
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/utils/WebElementUtilTest.java
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/utils/SimpleParserTest.java
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/utils/URLCheckerTest.java
+15:59:07.325 AU        src/test/java/com/vanguard/selenium/inner/core/utils/EmailUtilsTest.java
+15:59:07.458 A         src/test/java/com/vanguard/selenium/inner/testdata
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/testdata/TestDataUtilTest.java
+15:59:07.458 A         src/test/java/com/vanguard/selenium/inner/base
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/base/CookieServiceTest.java
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/base/PropertiesFileRegionToUrlMapperTest.java
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/base/FrameworkEndToEndTest.java
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/base/JSONParserServiceTester.java
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/base/AuthenticationServiceTest.java
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/base/HttpClientAuthenticatorPowerMockTest.java
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/base/RegionPropertiesTest.java
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/base/VanguardBaseTestTest.java
+15:59:07.458 AU        src/test/java/com/vanguard/selenium/inner/base/VgiAuthenticatedWebDriverTest.java
+15:59:07.564 AU        src/test/java/com/vanguard/selenium/inner/base/EnvironmentConfigurationFactoryTest.java
+15:59:07.564 AU        src/test/java/com/vanguard/selenium/inner/base/ParameterizedBaseTestTest.java
+15:59:07.564 AU        src/test/java/com/vanguard/selenium/inner/base/PropertiesManagerTest.java
+15:59:07.564 AU        src/test/java/com/vanguard/selenium/inner/base/HttpClientAuthenticatorTest.java
+15:59:07.564 A         src/test/java/com/vanguard/selenium/inner/logon
+15:59:07.564 A         src/test/java/com/vanguard/selenium/inner/logon/user
+15:59:07.564 AU        src/test/java/com/vanguard/selenium/inner/logon/user/ChannelTypeTest.java
+15:59:07.564 A         src/main
+15:59:07.564 A         src/main/java
+15:59:07.564 A         src/main/java/com
+15:59:07.564 A         src/main/java/com/vanguard
+15:59:07.564 A         src/main/java/com/vanguard/util
+15:59:07.564 AU        src/main/java/com/vanguard/util/CsvReader.java
+15:59:07.564 A         src/main/java/com/vanguard/selenium
+15:59:07.564 A         src/main/java/com/vanguard/selenium/inner
+15:59:07.564 A         src/main/java/com/vanguard/selenium/inner/environments
+15:59:07.564 AU        src/main/java/com/vanguard/selenium/inner/environments/AndroidConfiguration.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/IPhoneConfiguration.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/EnvironmentConfigOverrideValues.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/BrowserConfiguration.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/BuildProperties.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/EnvironmentConfigHandlerForProperties.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/JenkinsBuildPropertiesService.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/IOSConfiguration.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/BrowserType.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/EnvironmentConfigHandler.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/EnvironmentConfigHandlerForAnnotation.java
+15:59:07.608 AU        src/main/java/com/vanguard/selenium/inner/environments/FirefoxConfiguration.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/EdgeConfiguration.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/EnvironmentConfigHandlerForSauceLabsCapabilities.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/EnvironmentConfiguration.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/SafariConfiguration.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/OperaConfiguration.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/MobileConfiguration.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/InternetExplorerConfiguration.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/IPadConfiguration.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/ChromeConfiguration.java
+15:59:07.728 AU        src/main/java/com/vanguard/selenium/inner/environments/NullDriverException.java
+15:59:07.728 A         src/main/java/com/vanguard/selenium/inner/core
+15:59:07.801 A         src/main/java/com/vanguard/selenium/inner/core/rule
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/rule/RetryRule.java
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/rule/SeleniumDebugLogRule.java
+15:59:07.801 A         src/main/java/com/vanguard/selenium/inner/core/pages
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/pages/ExamplePageObject.java
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/pages/SeleniumCoreWrapperMethods.java
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/pages/VanguardBasePageInterface.java
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/pages/SeleniumFindElementWrapperMethods.java
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/pages/VanguardBasePageImpl.java
+15:59:07.801 A         src/main/java/com/vanguard/selenium/inner/core/utils
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/utils/EmailUtils.java
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/utils/LoggingUtility.java
+15:59:07.801 AU        src/main/java/com/vanguard/selenium/inner/core/utils/CommonUtility.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/DriverUtils.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/ExpectedConditionBuilder.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/WebElementUtil.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/CouldNotFindCorrectPageException.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/LineRemover.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/StringUtils.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/URLChecker.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/FirefoxDriverWithFastHomepage.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/ScreenshotUtils.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/FileUtils.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/FileBackup.java
+15:59:07.851 AU        src/main/java/com/vanguard/selenium/inner/core/utils/SeleniumWaitHelper.java
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/core/utils/SimpleParser.java
+15:59:08.047 A         src/main/java/com/vanguard/selenium/inner/testdata
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/TestData.java
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/QC Test Updater.xlsm
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/TestCase.java
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/TestCaseExt.java
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/ObjectFactory.java
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/TestCases.java
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/ObjectFactoryExt.java
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/TestDataRequest.java
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/XmlReader.java
+15:59:08.047 AU        src/main/java/com/vanguard/selenium/inner/testdata/TestDataUtil.java
+15:59:08.047 A         src/main/java/com/vanguard/selenium/inner/base
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/PropertiesFileRegionToUrlMapper.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/AuthenticatedWebDriver.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/AuthenticationResponse.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/AuthenticationService.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/RegionProperties.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/SeleniumAuthenticationException.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/NamedParameterized.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/AuthenticationUrl.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/VanguardBaseTest.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/VgiAuthenticatedWebDriver.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/JSONParserService.java
+15:59:08.107 AU        src/main/java/com/vanguard/selenium/inner/base/FailureAuthenticationChainLink.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/HttpClientAuthenticator.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/PageNavigationException.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/SeleniumBaseTest.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/SSGAuthenticationChainLink.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/RetryRuleForGridFailure.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/Region.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/AuthenticationStatus.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/DriverFactory.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/EnvironmentConfigurationFactory.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/AuthenticationChainOfResponsibilityLink.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/AuthenticationServiceLegacy.java
+15:59:08.155 AU        src/main/java/com/vanguard/selenium/inner/base/EnvironmentConfigAnnotation.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/base/PropertiesManager.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/base/ParameterizedBaseTest.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/base/BaseTestWatcher.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/base/CookieService.java
+15:59:08.306 A         src/main/java/com/vanguard/selenium/inner/logon
+15:59:08.306 A         src/main/java/com/vanguard/selenium/inner/logon/user
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/logon/user/UserType.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/logon/user/InternalUserInformation.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/logon/user/ProductType.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/logon/user/SegmentType.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/logon/user/UserInformation.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/logon/user/SearchType.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/logon/user/ChannelType.java
+15:59:08.306 AU        src/main/java/com/vanguard/selenium/inner/logon/user/Account.java
+15:59:09.126 AU        src/main/java/com/vanguard/selenium/inner/logon/user/AccountType.java
+15:59:09.126 AU        src/main/java/com/vanguard/selenium/inner/logon/user/TestCrewMemberInformation.java
+15:59:09.126 A         src/main/java/com/vanguard/selenium/logCapture
+15:59:09.126 AU        src/main/java/com/vanguard/selenium/logCapture/SessionCookieService.java
+15:59:09.126 AU        src/main/java/com/vanguard/selenium/logCapture/SessionCookieTO.java
+15:59:09.126 AU        src/main/java/com/vanguard/selenium/logCapture/LogCaptureService.java
+15:59:09.126 AU        src/main/java/com/vanguard/selenium/logCapture/LogViewPage.java
+15:59:09.126 A         src/main/resources
+15:59:09.126 AU        src/main/resources/log4j.properties
+15:59:09.126 AU        src/main/resources/project.properties
+15:59:09.126 AU        src/main/resources/defaults.properties
+15:59:09.126 AU        src/main/resources/selenium-test-data.xsd
+15:59:09.126 AU        pom.xml
+15:59:09.126  U        .
+15:59:09.126 At revision 5741
+15:59:09.310 Maven version parameter passed from Build Step plugin - Maven 3.2.5
+15:59:09.310 Maven version used for build -> Maven 3.2.5
+15:59:09.310 Enforcer skip check parameter : check
+15:59:09.310 Invoking Maven with MAVEN_OPTS: -Xms512m -Xmx3072m -XX:PermSize=256m -XX:MaxPermSize=1024m
+15:59:09.310 Using settings file located at /opt/vgi/maven/apache-maven-3.2.5/conf/settings-eval.xml
+15:59:09.310 Stashing artifacts in local repo at /opt/vgi/hudson/shared_data/maven-repos/localrepo0
+15:59:09.311 Debug Mode enabled : false
+15:59:09.311 Targets clean com.vanguard:skip-enforcer-check-maven-plugin:3.0.2.NGA-DONTSKIP-10:enforcer-check install -B -U -Psanity-check,java-64-bit
+15:59:09.311 System propeties environment=jenkins
+15:59:09.311 java.io.tmpdir=/opt/vgi/hudson/shared_data/tmp
+15:59:09.311 maven.repo.local=/opt/vgi/hudson/shared_data/maven-repos/localrepo0
+15:59:09.321 [ws] $ /opt/vgi/maven/apache-maven-3.2.5/bin/mvn -s /opt/vgi/maven/apache-maven-3.2.5/conf/settings-eval.xml -gs /opt/vgi/maven/apache-maven-3.2.5/conf/settings-eval.xml -DDISPLAY=:99 -Dbuild.type=ci -Djava.io.tmpdir=/opt/vgi/hudson/shared_data/tmp -Denvironment=jenkins -Dmaven.repo.local=/opt/vgi/hudson/shared_data/maven-repos/localrepo0 clean com.vanguard:skip-enforcer-check-maven-plugin:3.0.2.NGA-DONTSKIP-10:enforcer-check install -B -U -Psanity-check,java-64-bit
+15:59:09.330 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option PermSize=256m; support was removed in 8.0
+15:59:09.332 Java HotSpot(TM) 64-Bit Server VM warning: ignoring option MaxPermSize=1024m; support was removed in 8.0
+15:59:10.782 [INFO] Scanning for projects...
+15:59:11.419 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-snapshots-group/com/vanguard/selenium-inner-src-bom-pom/3.2.0-SNAPSHOT/maven-metadata.xml
+15:59:11.617 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-snapshots-group/com/vanguard/selenium-inner-src-bom-pom/3.2.0-SNAPSHOT/maven-metadata.xml (827 B at 3.4 KB/sec)
+15:59:11.714 [INFO]                                                                         
+15:59:11.714 [INFO] ------------------------------------------------------------------------
+15:59:11.714 [INFO] Building selenium-base-framework 3.3.0-SNAPSHOT
+15:59:11.716 [INFO] ------------------------------------------------------------------------
+15:59:12.101 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+15:59:12.103 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-eval-group/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+15:59:12.103 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-releases-group/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+15:59:12.103 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-snapshots-group/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+15:59:12.131 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/repositories/alip-third-party/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+15:59:12.151 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-eval-group/org/seleniumhq/selenium/selenium-support/maven-metadata.xml (464 B at 9.2 KB/sec)
+15:59:12.153 [INFO] Downloading: https://repo.maven.apache.org/maven2/org/seleniumhq/selenium/selenium-support/maven-metadata.xml
+15:59:21.027 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/seleniumhq/selenium/selenium-support/maven-metadata.xml (2 KB at 0.2 KB/sec)
+15:59:21.032 [WARNING] Could not transfer metadata org.seleniumhq.selenium:selenium-support/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): repo.maven.apache.org: unknown error
+15:59:21.228 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/springframework/spring-test/maven-metadata.xml
+15:59:21.229 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-eval-group/org/springframework/spring-test/maven-metadata.xml
+15:59:21.230 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-snapshots-group/org/springframework/spring-test/maven-metadata.xml
+15:59:21.230 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-releases-group/org/springframework/spring-test/maven-metadata.xml
+15:59:21.251 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/repositories/alip-third-party/org/springframework/spring-test/maven-metadata.xml
+15:59:21.255 [INFO] Downloading: https://repo.maven.apache.org/maven2/org/springframework/spring-test/maven-metadata.xml
+15:59:21.277 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/springframework/spring-test/maven-metadata.xml (3 KB at 49.0 KB/sec)
+15:59:21.279 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-eval-group/org/springframework/spring-test/maven-metadata.xml (531 B at 10.4 KB/sec)
+15:59:21.287 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/repositories/alip-third-party/org/springframework/spring-test/maven-metadata.xml (331 B at 9.2 KB/sec)
+15:59:21.289 [WARNING] Could not transfer metadata org.springframework:spring-test/maven-metadata.xml from/to central (https://repo.maven.apache.org/maven2): repo.maven.apache.org
+15:59:21.336 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-snapshots-group/com/vanguard/grid-info-extractor/1.2-SNAPSHOT/maven-metadata.xml
+15:59:21.379 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-snapshots-group/com/vanguard/grid-info-extractor/1.2-SNAPSHOT/maven-metadata.xml (2 KB at 28.2 KB/sec)
+15:59:21.389 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-snapshots-group/com/vanguard/selenium-inner-src-bom-pom/2.2.2-SNAPSHOT/maven-metadata.xml
+15:59:21.450 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-snapshots-group/com/vanguard/selenium-inner-src-bom-pom/2.2.2-SNAPSHOT/maven-metadata.xml (827 B at 13.0 KB/sec)
+15:59:21.544 [INFO] 
+15:59:21.545 [INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ selenium-base-framework ---
+15:59:21.633 [INFO] 
+15:59:21.652 [INFO] --- skip-enforcer-check-maven-plugin:3.0.2.NGA-DONTSKIP-10:enforcer-check (default-cli) @ selenium-base-framework ---
+15:59:21.767 [INFO] 
+15:59:21.767 [INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-java) @ selenium-base-framework ---
+15:59:22.007 [INFO] 
+15:59:22.007 [INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-warnings-before-errors) @ selenium-base-framework ---
+15:59:22.378 [INFO] Attempting to download gavlist version 0.1.2669
+15:59:22.407 [ERROR] Skipping Enforcer rule (MigratedDependencyCoordinatesRule) due to exception initializing gavlist: ArtifactNotFoundException: 
+15:59:22.409 [INFO] 
+15:59:22.411 [INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-custom-errors) @ selenium-base-framework ---
+15:59:22.415 [ERROR] Skipping Enforcer rule (RequireSCMTagRule) due to exception initializing gavlist: IllegalStateException: Previously failed to download gavlist.
+15:59:22.416 [ERROR] Skipping Enforcer rule (CorrelatePackagingAndArtifactIdSuffixRule) due to exception initializing gavlist: IllegalStateException: Previously failed to download gavlist.
+15:59:22.417 [ERROR] Skipping Enforcer rule (AllowableDependenciesRule) due to exception initializing gavlist: IllegalStateException: Previously failed to download gavlist.
+15:59:22.417 [ERROR] Skipping Enforcer rule (AllowablePluginsRule) due to exception initializing gavlist: IllegalStateException: Previously failed to download gavlist.
+15:59:22.418 [INFO] 
+15:59:22.418 [INFO] --- maven-enforcer-plugin:1.2:enforce (enforce-custom-warnings) @ selenium-base-framework ---
+15:59:22.422 [ERROR] Skipping Enforcer rule (UseMinimumDependencyVersionRule) due to exception initializing gavlist: IllegalStateException: Previously failed to download gavlist.
+15:59:22.422 [INFO] 
+15:59:22.422 [INFO] --- selenium-server-injector:1.0.2.0:selenium (inject) @ selenium-base-framework ---
+15:59:22.470 [INFO] injecting System property webdriver.remote.server=http://cvlna045.vanguard.com:4444/wd/hub
+15:59:22.471 [INFO] Adding Maven property jasmine.serverHostname=dvlna114
+15:59:22.471 [INFO] 
+15:59:22.472 [INFO] --- maven-resources-plugin:2.7:resources (default-resources) @ selenium-base-framework ---
+15:59:22.583 [INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+15:59:22.587 [INFO] Copying 4 resources
+15:59:22.598 [INFO] 
+15:59:22.598 [INFO] --- maven-compiler-plugin:3.3:compile (default-compile) @ selenium-base-framework ---
+15:59:22.725 [INFO] Changes detected - recompiling the module!
+15:59:22.733 [INFO] Compiling 97 source files to /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/target/classes
+15:59:24.709 [WARNING] /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/src/main/java/com/vanguard/selenium/inner/base/AuthenticationService.java:[33,34] sun.net.www.protocol.https.HttpsURLConnectionImpl is internal proprietary API and may be removed in a future release
+15:59:24.710 [WARNING] /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/src/main/java/com/vanguard/selenium/inner/base/AuthenticationService.java:[98,56] sun.net.www.protocol.https.HttpsURLConnectionImpl is internal proprietary API and may be removed in a future release
+15:59:24.710 [INFO] /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/src/main/java/com/vanguard/selenium/inner/base/DriverFactory.java: Some input files use or override a deprecated API.
+15:59:24.711 [INFO] /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/src/main/java/com/vanguard/selenium/inner/base/DriverFactory.java: Recompile with -Xlint:deprecation for details.
+15:59:24.712 [INFO] 
+15:59:24.712 [INFO] --- maven-dependency-plugin:2.10:build-classpath (copy-dependencies) @ selenium-base-framework ---
+15:59:25.177 [INFO] Wrote classpath file '/opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/target/classes/dependencyClasspath.txt'.
+15:59:25.179 [INFO] 
+15:59:25.179 [INFO] --- service-registry-maven-plugin:1.1.3.NGA-CTOSRMP-9:generate (generate) @ selenium-base-framework ---
+15:59:26.768 [INFO] 
+15:59:26.768 [INFO] --- maven-resources-plugin:2.7:testResources (default-testResources) @ selenium-base-framework ---
+15:59:26.770 [INFO] Using 'ISO-8859-1' encoding to copy filtered resources.
+15:59:26.771 [INFO] Copying 4 resources
+15:59:26.773 [INFO] 
+15:59:26.773 [INFO] --- maven-compiler-plugin:3.3:testCompile (default-testCompile) @ selenium-base-framework ---
+15:59:26.801 [INFO] Changes detected - recompiling the module!
+15:59:26.801 [INFO] Compiling 49 source files to /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/target/test-classes
+15:59:27.422 [INFO] /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/src/test/java/com/vanguard/selenium/inner/base/VanguardBaseTestTest.java: Some input files use or override a deprecated API.
+15:59:27.422 [INFO] /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/src/test/java/com/vanguard/selenium/inner/base/VanguardBaseTestTest.java: Recompile with -Xlint:deprecation for details.
+15:59:27.423 [INFO] 
+15:59:27.423 [INFO] --- jacoco-maven-plugin:0.7.4.201502262128:prepare-agent (hai2u) @ selenium-base-framework ---
+15:59:27.771 [INFO] jacocoJavaAgent set to -javaagent:/opt/vgi/hudson/shared_data/maven-repos/localrepo0/org/jacoco/org.jacoco.agent/0.7.4.201502262128/org.jacoco.agent-0.7.4.201502262128-runtime.jar=destfile=/opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/target/jacoco.exec,excludes=org.drools.*
+15:59:27.771 [INFO] 
+15:59:27.771 [INFO] --- maven-surefire-plugin:2.12:test (default-test) @ selenium-base-framework ---
+15:59:27.845 [INFO] Surefire report directory: /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/target/surefire-reports
+15:59:27.931 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/surefire-junit47/2.12/surefire-junit47-2.12.pom
+15:59:37.051 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/surefire-junit47/2.12/surefire-junit47-2.12.pom (4 KB at 0.4 KB/sec)
+15:59:37.071 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit48/2.12/common-junit48-2.12.pom
+15:59:43.343 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit48/2.12/common-junit48-2.12.pom (3 KB at 0.4 KB/sec)
+15:59:43.364 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit4/2.12/common-junit4-2.12.pom
+16:00:03.138 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit4/2.12/common-junit4-2.12.pom (2 KB at 0.1 KB/sec)
+16:00:03.147 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit3/2.12/common-junit3-2.12.pom
+16:00:14.594 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit3/2.12/common-junit3-2.12.pom (2 KB at 0.1 KB/sec)
+16:00:14.625 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/surefire-grouper/2.12/surefire-grouper-2.12.pom
+16:00:26.349 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/surefire-grouper/2.12/surefire-grouper-2.12.pom (3 KB at 0.2 KB/sec)
+16:00:26.367 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/surefire-junit47/2.12/surefire-junit47-2.12.jar
+16:00:26.369 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit4/2.12/common-junit4-2.12.jar
+16:00:26.369 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/surefire-grouper/2.12/surefire-grouper-2.12.jar
+16:00:26.370 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit48/2.12/common-junit48-2.12.jar
+16:00:26.372 [INFO] Downloading: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit3/2.12/common-junit3-2.12.jar
+16:00:26.486 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit4/2.12/common-junit4-2.12.jar (16 KB at 128.6 KB/sec)
+16:00:26.501 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit48/2.12/common-junit48-2.12.jar (25 KB at 190.5 KB/sec)
+16:00:26.533 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/surefire-grouper/2.12/surefire-grouper-2.12.jar (37 KB at 224.8 KB/sec)
+16:00:36.699 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/common-junit3/2.12/common-junit3-2.12.jar (11 KB at 1.1 KB/sec)
+16:00:37.193 [INFO] Downloaded: http://prdmvnrepo:19080/nexus/content/groups/vanguard-third-party-group/org/apache/maven/surefire/surefire-junit47/2.12/surefire-junit47-2.12.jar (48 KB at 4.4 KB/sec)
+16:00:37.214 
+16:00:37.214 -------------------------------------------------------
+16:00:37.214  T E S T S
+16:00:37.214 -------------------------------------------------------
+16:00:37.559 Concurrency config is parallel='classes', perCoreThreadCount=false, threadCount=10, useUnlimitedThreads=false
+16:00:38.996 Running com.vanguard.selenium.inner.testdata.TestDataUtilTest
+16:00:39.008 Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+16:00:39.019 Running com.vanguard.selenium.inner.core.utils.FirefoxDriverWithFastHomepageTest
+16:00:39.020 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.017 sec
+16:00:39.023 Running com.vanguard.selenium.inner.core.utils.FileBackupTest
+16:00:39.023 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.04 sec
+16:00:39.043 Running com.vanguard.selenium.inner.core.utils.SimpleParserTest
+16:00:39.044 Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.024 sec
+16:00:39.054 Running com.vanguard.selenium.inner.base.RegionPropertiesTest
+16:00:39.055 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:00:39.056 SEVERE: No known Region Property type of: regionConfig.properties
+16:00:39.056 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:00:39.056 SEVERE: No known Region Property type of: regionConfig_f.properties
+16:00:39.056 Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.062 sec
+16:00:39.082 Running com.vanguard.selenium.inner.core.utils.URLCheckerTest
+16:00:39.083 Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec
+16:00:39.089 Running com.vanguard.selenium.inner.base.CookieServiceTest
+16:00:39.090 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec
+16:00:39.131 Running com.vanguard.selenium.inner.base.PropertiesManagerTest
+16:00:39.131 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:00:39.131 INFO: *** Adding a key=value pair from Jenkins testProperties String Parameter: region=F
+16:00:39.132 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:00:39.132 INFO: Using [defaults.properties] file to get property: FonlyProp
+16:00:39.132 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:00:39.132 INFO: Using [defaults.properties] file to get property: region
+16:00:39.133 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:00:39.133 INFO: *** Adding a key=value pair from Jenkins testProperties String Parameter: grid=www.grid.com
+16:00:39.133 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:00:39.133 INFO: *** Adding a key=value pair from Jenkins testProperties String Parameter: myID=someIDvalue
+16:00:39.133 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:00:39.133 INFO: *** Adding a key=value pair from Jenkins testProperties String Parameter: region=F
+16:00:39.133 Tests run: 10, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.107 sec
+16:00:39.154 Running com.vanguard.selenium.inner.base.EnvironmentConfigurationFactoryTest
+16:00:39.154 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:00:39.154 SEVERE: Invalid value for 'BrowserName'.  Value [SomeUnknownBrowser] is not currently supported.  We're going to run the test with FIREFOX.
+16:00:39.154 Tests run: 12, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec
+16:00:39.156 Running com.vanguard.selenium.inner.base.PropertiesFileRegionToUrlMapperTest
+16:00:39.156 Tests run: 6, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+16:00:39.222 Running com.vanguard.selenium.inner.base.ParameterizedBaseTestTest
+16:00:39.222 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.142 sec
+16:00:39.275 Running com.vanguard.selenium.inner.core.utils.ExpectedConditionBuilderTest
+16:00:39.277 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:00:39.277 SEVERE: Error waiting for element to be enabled.
+16:00:39.277 org.openqa.selenium.StaleElementReferenceException: 
+16:00:39.277 For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+16:00:39.277 Build info: version: '3.3.1', revision: '5234b325d5', time: '2017-03-10 09:10:29 +0000'
+16:00:39.277 System info: host: 'dvlna114', ip: '10.242.8.14', os.name: 'Linux', os.arch: 'amd64', os.version: '2.6.18-416.el5', java.version: '1.8.0_40'
+16:00:39.277 Driver info: driver.version: unknown
+16:00:39.277 	at org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:46)
+16:00:39.277 	at org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:85)
+16:00:39.277 	at com.sun.proxy.$Proxy10.isEnabled(Unknown Source)
+16:00:39.277 	at com.vanguard.selenium.inner.core.utils.ExpectedConditionBuilder$1.apply(ExpectedConditionBuilder.java:47)
+16:00:39.277 	at com.vanguard.selenium.inner.core.utils.ExpectedConditionBuilder$1.apply(ExpectedConditionBuilder.java:44)
+16:00:39.277 	at com.vanguard.selenium.inner.core.utils.ExpectedConditionBuilderTest.givenElementIsNotEnabledWhenApplyingBuiltConditionReturnFalse(ExpectedConditionBuilderTest.java:66)
+16:00:39.277 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16:00:39.277 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+16:00:39.277 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16:00:39.277 	at java.lang.reflect.Method.invoke(Method.java:497)
+16:00:39.277 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+16:00:39.277 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+16:00:39.277 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+16:00:39.277 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+16:00:39.277 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+16:00:39.277 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+16:00:39.277 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+16:00:39.277 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+16:00:39.277 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+16:00:39.277 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+16:00:39.277 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+16:00:39.277 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+16:00:39.277 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+16:00:39.277 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+16:00:39.277 	at org.apache.maven.surefire.junitcore.ClassDemarcatingRunner.run(ClassDemarcatingRunner.java:58)
+16:00:39.277 	at org.junit.runners.Suite.runChild(Suite.java:127)
+16:00:39.277 	at org.junit.runners.Suite.runChild(Suite.java:26)
+16:00:39.277 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+16:00:39.277 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+16:00:39.277 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+16:00:39.277 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+16:00:39.277 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+16:00:39.277 	at java.lang.Thread.run(Thread.java:745)
+16:00:39.277 
+16:00:39.277 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:00:39.277 SEVERE: Error waiting for Ajax
+16:00:39.277 java.lang.IllegalArgumentException
+16:00:39.277 	at org.easymock.internal.MockInvocationHandler.invoke(MockInvocationHandler.java:46)
+16:00:39.277 	at org.easymock.internal.ObjectMethodsFilter.invoke(ObjectMethodsFilter.java:85)
+16:00:39.277 	at org.easymock.internal.ClassProxyFactory$MockMethodInterceptor.intercept(ClassProxyFactory.java:94)
+16:00:39.277 	at org.openqa.selenium.remote.RemoteWebDriver$$EnhancerByCGLIB$$94f676af.executeScript(<generated>)
+16:00:39.277 	at com.vanguard.selenium.inner.core.utils.ExpectedConditionBuilder$2.apply(ExpectedConditionBuilder.java:70)
+16:00:39.277 	at com.vanguard.selenium.inner.core.utils.ExpectedConditionBuilder$2.apply(ExpectedConditionBuilder.java:65)
+16:00:39.277 	at com.vanguard.selenium.inner.core.utils.ExpectedConditionBuilderTest.givenAjaxCheckThrowsExceptionWhenApplyingConditionThenReturnFalse(ExpectedConditionBuilderTest.java:123)
+16:00:39.277 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+16:00:39.277 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+16:00:39.277 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+16:00:39.277 	at java.lang.reflect.Method.invoke(Method.java:497)
+16:00:39.277 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+16:00:39.277 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+16:00:39.277 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+16:00:39.277 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+16:00:39.277 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+16:00:39.277 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+16:00:39.277 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+16:00:39.277 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+16:00:39.277 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+16:00:39.277 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+16:00:39.277 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+16:00:39.277 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+16:00:39.277 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+16:00:39.277 	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+16:00:39.277 	at org.apache.maven.surefire.junitcore.ClassDemarcatingRunner.run(ClassDemarcatingRunner.java:58)
+16:00:39.277 	at org.junit.runners.Suite.runChild(Suite.java:127)
+16:00:39.277 	at org.junit.runners.Suite.runChild(Suite.java:26)
+16:00:39.277 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+16:00:39.277 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+16:00:39.277 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+16:00:39.277 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+16:00:39.278 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+16:00:39.278 	at java.lang.Thread.run(Thread.java:745)
+16:00:39.278 
+16:00:39.278 Tests run: 11, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.053 sec
+16:00:39.279 Running com.vanguard.selenium.inner.logon.user.ChannelTypeTest
+16:00:39.282 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+16:00:39.283 Running com.vanguard.selenium.inner.base.HttpClientAuthenticatorTest
+16:00:39.283 Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.114 sec
+16:00:39.283 Running com.vanguard.selenium.inner.base.VanguardBaseTestTest
+16:00:39.283 Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.048 sec
+16:00:39.287 Running com.vanguard.selenium.inner.core.rule.RetryRuleTest
+16:00:39.287 Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.304 sec
+16:00:39.288 Running com.vanguard.selenium.inner.environments.InternetExplorerConfigurationTest
+16:00:39.288 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.004 sec
+16:00:39.288 Running com.vanguard.selenium.inner.environments.IPadConfigurationTest
+16:00:39.288 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.007 sec
+16:00:39.288 Running com.vanguard.selenium.inner.environments.SafariConfigurationTest
+16:00:39.289 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+16:00:39.289 Running com.vanguard.selenium.inner.environments.BuildPropertiesTest
+16:00:39.289 Tests run: 5, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+16:00:39.297 Running com.vanguard.selenium.inner.environments.EnvironmentConfigHandlerForAnnotationTest
+16:00:39.297 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.003 sec
+16:00:39.297 Running com.vanguard.selenium.inner.environments.IPhoneConfigurationTest
+16:00:39.297 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+16:00:39.297 Running com.vanguard.selenium.inner.environments.FirefoxConfigurationTest
+16:00:39.297 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+16:00:39.314 Running com.vanguard.selenium.inner.environments.EdgeConfigurationTest
+16:00:39.314 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+16:00:39.314 Running com.vanguard.selenium.inner.environments.EnvironmentConfigHandlerTest
+16:00:39.314 Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 sec
+16:00:39.314 Running com.vanguard.selenium.inner.environments.OperaConfigurationTest
+16:00:39.314 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+16:00:39.318 Running com.vanguard.selenium.inner.environments.ChromeConfigurationTest
+16:00:39.318 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.001 sec
+16:01:51.532 Running com.vanguard.selenium.inner.base.AuthenticationServiceTest
+16:01:51.533 Jul 20, 2017 4:01:31 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.533 SEVERE: IGNORE THE NEXT ERROR: For trying to retrieve JSON ARRAY of TokenSet.  WE'RE EXPECTING IT NOT TO BE THERE FOR THIS TEST.
+16:01:51.533 Jul 20, 2017 4:01:31 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.533 SEVERE: ERROR retrieving JSON ARRAY from key [TokenSet] from JSON Object: {"Status":"201","Message":"User failed authentication.","Operation":"CreateActiveDirectoryToken"}
+16:01:51.533 org.json.JSONException: JSONObject["TokenSet"] not found.	at org.json.JSONObject.get(JSONObject.java:498)	at org.json.JSONObject.getJSONArray(JSONObject.java:574)	at com.vanguard.selenium.inner.base.JSONParserService.getJSONArrayFromJSONObject(JSONParserService.java:48)	at com.vanguard.selenium.inner.base.AuthenticationServiceTest.SMOKE_getPOSTAuthenticationRequestResponseFAILURETest(AuthenticationServiceTest.java:94)	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)	at java.lang.reflect.Method.invoke(Method.java:497)	at org.junit.internal.runners.TestMethod.invoke(TestMethod.java:68)	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:310)	at org.junit.internal.runners.MethodRoadie$2.run(MethodRoadie.java:88)	at org.junit.internal.runners.MethodRoadie.runBeforesThenTestThenAfters(MethodRoadie.java:96)	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.executeTest(PowerMockJUnit44RunnerDelegateImpl.java:294)	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTestInSuper(PowerMockJUnit47RunnerDelegateImpl.java:127)	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit47RunnerDelegateImpl$PowerMockJUnit47MethodRunner.executeTest(PowerMockJUnit47RunnerDelegateImpl.java:82)	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$PowerMockJUnit44MethodRunner.runBeforesThenTestThenAfters(PowerMockJUnit44RunnerDelegateImpl.java:282)	at org.junit.internal.runners.MethodRoadie.runTest(MethodRoadie.java:86)	at org.junit.internal.runners.MethodRoadie.run(MethodRoadie.java:49)	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.invokeTestMethod(PowerMockJUnit44RunnerDelegateImpl.java:207)	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.runMethods(PowerMockJUnit44RunnerDelegateImpl.java:146)	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl$1.run(PowerMockJUnit44RunnerDelegateImpl.java:120)	at org.junit.internal.runners.ClassRoadie.runUnprotected(ClassRoadie.java:33)	at org.junit.internal.runners.ClassRoadie.runProtected(ClassRoadie.java:45)	at org.powermock.modules.junit4.internal.impl.PowerMockJUnit44RunnerDelegateImpl.run(PowerMockJUnit44RunnerDelegateImpl.java:122)	at org.powermock.modules.junit4.common.internal.impl.JUnit4TestSuiteChunkerImpl.run(JUnit4TestSuiteChunkerImpl.java:106)	at org.powermock.modules.junit4.common.internal.impl.AbstractCommonPowerMockRunner.run(AbstractCommonPowerMockRunner.java:53)	at org.powermock.modules.junit4.PowerMockRunner.run(PowerMockRunner.java:59)	at org.apache.maven.surefire.junitcore.ClassDemarcatingRunner.run(ClassDemarcatingRunner.java:58)	at org.junit.runners.Suite.runChild(Suite.java:127)	at org.junit.runners.Suite.runChild(Suite.java:26)	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)	at java.util.concurrent.FutureTask.run(FutureTask.java:266)	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)	at java.lang.Thread.run(Thread.java:745)Jul 20, 2017 4:01:31 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.533 SEVERE: Failure in attempting to get vanguard domain site.  Attempting another :
+16:01:51.533 null
+16:01:51.535 Jul 20, 2017 4:01:31 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.535 SEVERE: Failure in attempting to get vanguard domain site.  Attempting another :
+16:01:51.535 null
+16:01:51.535 Tests run: 8, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 52.495 sec
+16:01:51.535 Running com.vanguard.selenium.inner.core.utils.WebElementUtilTest
+16:01:51.535 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.535 INFO: searchText was not found on the page!
+16:01:51.535 Tests run: 16, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.157 sec
+16:01:51.535 Running com.vanguard.selenium.inner.environments.JenkinsBuildPropertiesServiceTest
+16:01:51.537 Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.579 sec <<< FAILURE!
+16:01:51.542 Running com.vanguard.selenium.inner.environments.BrowserTypeTest
+16:01:51.542 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.542 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.542 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.542 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.542 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.542 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.542 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.543 INFO: Using [defaults.properties] file to get property: BrowserType
+16:01:51.543 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.543 SEVERE: Invalid value for 'BrowserName'.  Value [Invalid_Selection] is not currently supported.  We're going to run the test with FIREFOX.
+16:01:51.543 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.543 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.543 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.543 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.543 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.543 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.543 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.543 INFO: Using [defaults.properties] file to get property: BrowserType
+16:01:51.543 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.543 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.543 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.543 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.543 Tests run: 19, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.068 sec <<< FAILURE!
+16:01:51.543 Running com.vanguard.selenium.inner.base.HttpClientAuthenticatorPowerMockTest
+16:01:51.544 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.424 sec
+16:01:51.544 Running com.vanguard.selenium.inner.base.VgiAuthenticatedWebDriverTest
+16:01:51.544 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.544 SEVERE: Failure Authenticating will attempt another channel.  Failure message: null
+16:01:51.544 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.544 SEVERE: Failure Authenticating will attempt another channel.  Failure message: null
+16:01:51.544 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.544 SEVERE: Failure Authenticating will attempt another channel.  Failure message: null
+16:01:51.544 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.545 SEVERE: Failure Authenticating will attempt another channel.  Failure message: null
+16:01:51.545 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.545 SEVERE: Failure Authenticating will attempt another channel.  Failure message: null
+16:01:51.545 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.545 SEVERE: Failure Authenticating will attempt another channel.  Failure message: null
+16:01:51.545 Jul 20, 2017 4:01:31 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logError
+16:01:51.545 SEVERE: Failure Authenticating will attempt another channel.  Failure message: null
+16:01:51.545 Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 72.438 sec
+16:01:51.545 Running com.vanguard.selenium.inner.core.utils.EmailUtilsTest
+16:01:51.545 Jul 20, 2017 4:00:39 PM com.vanguard.utils.email.EmailUtils sendEmail
+16:01:51.545 SEVERE: Error - email address must be internal addresses only - myEmail@vanguard.com
+16:01:51.545 Jul 20, 2017 4:00:39 PM com.vanguard.utils.email.EmailUtils sendEmail
+16:01:51.545 SEVERE: Error - email address must be internal addresses only - myEmail@vanguard.com
+16:01:51.545 Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.518 sec
+16:01:51.545 Running com.vanguard.selenium.inner.environments.AndroidConfigurationTest
+16:01:51.545 Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0 sec
+16:01:51.546 Running com.vanguard.selenium.inner.environments.EnvironmentConfigHandlerForSauceLabsCapabilitiesTest
+16:01:51.546 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.546 INFO: Using [defaults.properties] file to get property: build
+16:01:51.546 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.546 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.546 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.546 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.546 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.546 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.546 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.546 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.546 Tests run: 29, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.082 sec
+16:01:51.547 Running com.vanguard.selenium.inner.base.FrameworkEndToEndTest
+16:01:51.547 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.547 INFO: Starting verifyPersonalInvestorPageLoadsTest
+16:01:51.547 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.547 INFO: Using [defaults.properties] file to get property: BrowserType
+16:01:51.547 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logWarning
+16:01:51.547 WARNING: No region was loaded within the properties we've obtained yet.  We will get the property from defaults.properties file.
+16:01:51.547 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.547 INFO: Using [defaults.properties] file to get property: seleniumGrid
+16:01:51.548 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.548 INFO: ******* Launching Browser with: Capabilities [{marionette=true, browserName=firefox, version=, platform=ANY}]
+16:01:51.548 Jul 20, 2017 4:00:39 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.548 INFO: ******* Launching on Grid: http://cvlna045.vanguard.com:4444/wd/hub
+16:01:51.548 Jul 20, 2017 4:00:42 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+16:01:51.548 INFO: Detected dialect: OSS
+16:01:51.548 Jul 20, 2017 4:00:44 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.548 INFO: Succeeded verifyPersonalInvestorPageLoadsTest
+16:01:51.548 Jul 20, 2017 4:00:44 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.548 INFO: Finished verifyPersonalInvestorPageLoadsTest. Test took 5084 ms.
+16:01:51.548 Jul 20, 2017 4:00:44 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.548 INFO: Starting verifyFullAuthenitcationTest
+16:01:51.548 Jul 20, 2017 4:00:44 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.548 INFO: ******* Launching Browser with: Capabilities [{marionette=true, browserName=firefox, version=, platform=ANY}]
+16:01:51.548 Jul 20, 2017 4:00:44 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.548 INFO: ******* Launching on Grid: http://cvlna045.vanguard.com:4444/wd/hub
+16:01:51.548 Jul 20, 2017 4:00:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+16:01:51.548 INFO: Detected dialect: OSS
+16:01:51.548 Jul 20, 2017 4:01:12 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.548 INFO: Succeeded verifyFullAuthenitcationTest
+16:01:51.548 Jul 20, 2017 4:01:12 PM com.vanguard.selenium.inner.core.utils.LoggingUtility logInfo
+16:01:51.548 INFO: Finished verifyFullAuthenitcationTest. Test took 27667 ms.
+16:01:51.548 Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 33.301 sec
+16:01:51.577 
+16:01:51.577 Results :
+16:01:51.577 
+16:01:51.578 Failed tests:   getBrowserTypeInternetExplorerTest(com.vanguard.selenium.inner.environments.BrowserTypeTest): expected:<INTERNET_EXPLORER> but was:<FIREFOX>
+16:01:51.596   getBrowserTypeOperaTest(com.vanguard.selenium.inner.environments.BrowserTypeTest): expected:<OPERA> but was:<FIREFOX>
+16:01:51.596   getBrowserTypeGoogleChromeTest(com.vanguard.selenium.inner.environments.BrowserTypeTest): expected:<CHROME> but was:<FIREFOX>
+16:01:51.596   getBrowserTypeAndroidTest(com.vanguard.selenium.inner.environments.BrowserTypeTest): expected:<ANDROID> but was:<FIREFOX>
+16:01:51.596 
+16:01:51.596 Tests in error: 
+16:01:51.596   getBuildPropertiesPopulatesTheBuildPropertiesObjectTest(com.vanguard.selenium.inner.environments.JenkinsBuildPropertiesServiceTest): (..)
+16:01:51.596 
+16:01:51.596 Tests run: 217, Failures: 4, Errors: 1, Skipped: 0
+16:01:51.596 
+16:01:51.596 [INFO] ------------------------------------------------------------------------
+16:01:51.597 [INFO] BUILD FAILURE
+16:01:51.597 [INFO] ------------------------------------------------------------------------
+16:01:51.597 [INFO] Total time: 02:40 min
+16:01:51.598 [INFO] Finished at: 2017-07-20T16:01:51-04:00
+16:01:51.912 [INFO] Final Memory: 59M/1228M
+16:01:51.913 [INFO] ------------------------------------------------------------------------
+16:01:51.914 [ERROR] Failed to execute goal org.apache.maven.plugins:maven-surefire-plugin:2.12:test (default-test) on project selenium-base-framework: There are test failures.
+16:01:51.914 [ERROR] 
+16:01:51.914 [ERROR] Please refer to /opt/vgi/hudson/ngsa_data/workspace/selenium-base-framework-3-3-0-branch/ws/target/surefire-reports for the individual test results.
+16:01:51.914 [ERROR] -> [Help 1]
+16:01:51.915 [ERROR] 
+16:01:51.915 [ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+16:01:51.915 [ERROR] Re-run Maven using the -X switch to enable full debug logging.
+16:01:51.915 [ERROR] 
+16:01:51.915 [ERROR] For more information about the errors and possible solutions, please read the following articles:
+16:01:51.916 [ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException
+16:01:52.015 ERROR: A Maven invocation failed.
+16:01:52.015 Recording fingerprints
+16:01:52.030 Analyzing the SonarQube results... done!
+16:01:52.134 Sending e-mails to: craig_schwarzwald@vanguard.com prudhviraj_gollapalli@vanguard.com
+16:01:52.517 Notifying upstream projects of job completion
+16:01:52.517 Finished: FAILURE
