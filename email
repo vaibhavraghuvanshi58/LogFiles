@@ -1,0 +1,35 @@
+
+
+This Haylde post just came in: https://vanguard.haydle.com/questions/7775
+
+I think it’s a reasonable request to try, but only if it
+yields really significant time savings.  In general I think headless
+testing is a horrible idea, but Josh’s build in particular keeps running into
+build time issues taking over 3 hours.  As I mention in the ticket this
+seems like addressing the symptom rather than the real issue, but I suppose
+it’s something we can try to implement.
+
+ 
+
+If you can focus on this today, you should be able to finish
+the implementation by EOD.  
+
+Here’s an example from SauceLabs (in python): https://support.saucelabs.com/hc/en-us/articles/115007848068-Headless-Browser-Testing-with-Chrome-and-Sauce-Labs
+
+And from the Haydle post, we need to set up a ChromeOptions
+object and pass “--headless”.
+
+ 
+
+Please try this out in the new base-framework branch I
+created and got working yesterday: http://prdsvnrepo:8080/svn/shared/projects/selenium-base-framework/branches/0.0.1
+
+You’ll probably want to copy the ChromeConfiguration class
+creating a ChromeHeadlessConfiguration.  You can view the DriverFactory
+class getChromeDriver() method for an example where we use ChromeOptions
+already.  You’ll also have to update the BrowserType for a CHROME_HEADLESS type from
+cases “Chrome-headless” or “Chrome_headless”, and the EnvironmentConfigurationFactory
+to add an entry for that new CHROME_HEADLESS type.
+
+ 
+
