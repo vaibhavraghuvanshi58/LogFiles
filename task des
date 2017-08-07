@@ -1,0 +1,3 @@
+We currently log if element is not found in console and continue.  We should create a property teams can set to choose to fail the test then and there if the element they're searching for can't be interacted with instead of always simply logging that to the console and resuming the test.
+NOTE: This is harder than originally thought.  Due to PropertiesManager being in test-data-framework project, and the SeleniumCoreWrapper class being in inner-core, and that test-data-framework already depends on inner-core, we can't make inner-core now depend on test-data-framework to utilize PropertiesManager or we'd have a circular dependency.
+We may need to break out PropertiesManager to its own project which is a much greater change than originally thought of.
